@@ -11,7 +11,6 @@
         </field>
     </record>
 
-
     <record id="inherited_model_view_form_franck2" model="ir.ui.view">
         <field name="name">TEst extend</field>
         <field name="model">car_management.car</field>
@@ -19,8 +18,8 @@
         <field name="arch" type="xml">
             <!-- find field description and add the field
                  new_field after it -->
-            <xpath expr="//field[@name='employe_id']" position="after">
-                <field name="test_field"/>
+            <xpath expr="//field[@name='employe_id']" position="attributes">
+                <attribute name="options">{'no_create': True}</attribute>
             </xpath>
         </field>
     </record>
