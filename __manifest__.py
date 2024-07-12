@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "sale_extend_feature",
+    'name': "Sale Extend Feature",
 
     'summary': "Application qui ajoute des fonctionnalités au module de vente",
 
@@ -18,7 +18,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'sale',],
+    'depends': ['base',],
 
     # always loaded
     'data': [
@@ -30,7 +30,6 @@
     'demo': [
         'demo/demo.xml',
     ],
-    "auto_install": True,
-    "application": False,
+    "application": True,
 }
 
