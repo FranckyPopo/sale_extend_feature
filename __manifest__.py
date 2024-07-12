@@ -23,14 +23,14 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
+        'views/sale_order_views.xml',
         'views/templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
-    "auto_install": True,
-    "application": False,
+    "auto_install": False,
+    "application": True,
 }
 
