@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "sale_extend_feature",
+    'name': "Sale Extend Feature",
 
     'summary': "Application qui ajoute des fonctionnalités au module de vente",
 
