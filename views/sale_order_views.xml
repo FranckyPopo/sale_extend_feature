@@ -7,8 +7,9 @@
             <!-- find field description and add the field
                  new_field after it -->
             <xpath expr="//field[@name='partner_id']" position="attributes">
-                <attribute name="options">{'no_create': True}</attribute>
+                <attribute name="options">{'no_create': False}</attribute>
             </xpath>
         </field>
     </record>
 </odoo>
+

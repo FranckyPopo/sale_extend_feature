@@ -32,5 +32,10 @@
     ],
     "auto_install": False,
     "application": True,
-}
+    'assets': {
+    'web.assets_backend': [
+            'sale_extend_feature/static/src/js/many2one.js'
+        ]
+    }
 
+}
