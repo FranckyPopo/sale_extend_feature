@@ -34,8 +34,7 @@
     "application": True,
     'assets': {
     'web.assets_backend': [
-            'sale_extend_feature/static/src/js/many2one.js',
-            'sale_extend_feature/static/src/js/test.js',
+            'sale_extend_feature/static/src/js/related_fields.js',
         ]
     }
 
